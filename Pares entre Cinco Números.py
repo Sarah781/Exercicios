@@ -8,7 +8,7 @@
 
 #7 -5  6 -4 12
 
-n1=int(input(""))
+""" n1=int(input(""))
 n2=int(input(""))
 n3=int(input(""))
 n4=int(input(""))
@@ -18,21 +18,30 @@ if n1%2==0:
     pares = 1
 else:
     pares = 0
+    
 if n2%2==0:
     pares = pares + 1
-else:
-    pares = pares + 0
+
 if n3%2==0:
     pares = pares + 1
-else:
-    pares = pares + 0
+
 if n4%2==0:
     pares = pares + 1
-else:
-    pares = pares + 0
+
 if n5%2==0:
     pares = pares + 1
-else:
-    pares = pares + 0
 
+
+print(f"{pares} valores pares") """
+
+pares = 0
+for i in range(5):
+
+    n = int(input(""))
+    if n%2==0:
+        pares = pares + 1
+    else:
+        pares = pares + 0
 print(f"{pares} valores pares")
+
+
