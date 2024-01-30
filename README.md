@@ -1,1 +1,1 @@
-# Exercicios do uri em Python
+# Exercicios do Beecrowd em Python
